@@ -83,7 +83,7 @@ exec(
 
     if (runtimeError) {
       console.error(
-        `💢 ${chalk.blueBright.bold('TS Validation Failed:')} ${chalk.yellowBright.bold(`Found ${errors.length} ${errors.length > 1 ? 'Errors' : 'Error'}`)}\n`,
+        `💢 ${chalk.blueBright.bold('TS Validity Failed:')} ${chalk.yellowBright.bold(`Found ${errors.length} ${errors.length > 1 ? 'Errors' : 'Error'}`)}\n`,
       );
 
       if (stderr) {
